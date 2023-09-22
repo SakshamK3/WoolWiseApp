@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/item_separator"
+    android:elevation="2dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="188dp"
+        android:layout_height="150dp"
+        android:src="@drawable/placeholder_image" />
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/productDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Description"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/productPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Price"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/productCategoryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Category"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/productStockQuantityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock Quantity"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/productCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Code"
+        android:textSize="14sp" />
+
+</LinearLayout>

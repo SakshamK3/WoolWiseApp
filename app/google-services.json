@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "439114247557",
+    "project_id": "woolapp-bff54",
+    "storage_bucket": "woolapp-bff54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439114247557:android:02688fff2791c5455868ec",
+        "android_client_info": {
+          "package_name": "com.example.woolapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNJt_um18WuMBYGvbUU3zq1ytZf6VS5P0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
